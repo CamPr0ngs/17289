@@ -17,7 +17,7 @@ public class SaludarControlador {
 
     @GetMapping("/despedidas")
     public String despedirse(){
-        return "Adios putos!";
+        return "Adios!";
     }
 
     @PostMapping("/nombramientos")    
